@@ -1,0 +1,7 @@
+{
+  "name": "TodoZ",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
