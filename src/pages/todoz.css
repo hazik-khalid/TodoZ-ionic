@@ -1,0 +1,64 @@
+.todolist{
+    font-family: Arial,sans-serif;
+    text-align: start;
+    
+}
+h1{
+    font-family: Arial;
+}
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backgrground-color 0.5 ease;
+}
+.add-btn{
+    background-color: hsl(125, 47%, 54%);
+    width: 100%; /* Make button full width */
+    padding: 10px 11px;
+}
+.add-btn:hover{
+    background-color: hsl(125, 47%, 44%);
+}
+.delete-btn{
+    background-color: hsl(10, 90%, 50%);
+}
+.delete-btn:hover{
+    background-color: hsl(10, 90%, 40%);
+}
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 5px;
+    border: 1px solid hsla(0, 10%, 6%, 0.5);
+    border-radius: 10px;
+    color: hsl(0, 0%, 0%, 0.5);
+    margin: 10px;
+    background-color: #fff;
+    width: 380px;
+}
+
+ol{
+    padding: 0;
+}
+
+li{
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 15px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.text{
+    flex: 1;
+}
+.delete-btn{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+    text-align: end;
+}
